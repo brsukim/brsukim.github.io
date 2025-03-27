@@ -113,3 +113,35 @@ main img {
     /*sets styling when 'hovering' aka state*/
     color: antiquewhite;
 }
+
+.section-title {
+    border: 2px solid #7ba150;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.resume-section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.resume-section h4 {
+    font-weight: bold;
+}
+
+.resume-section p {
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.resume-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.resume-section ul li {
+    margin-bottom: 10px;
+}
