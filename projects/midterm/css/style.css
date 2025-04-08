@@ -81,12 +81,14 @@ header {
 
 .footer {
     background-color: #F9F1E5;
+    position: absolute;
 }
 
 .footer-content {
+    position: relative;
+    margin: 0 auto;
     color: #0C0E0C;
     font-size: 0.9em;
     padding: 1rem;
-    margin: 1rem 0;
     width: 55%;
 }
