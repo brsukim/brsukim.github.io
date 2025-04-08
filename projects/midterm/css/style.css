@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Abel&family=Rubik&display=swap');
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    background-color: #0C0E0C;
+    color: #FAFCEF;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Italiana', sans-serif;
+    font-size: 6em;
+    margin: 0.5em 0;
+}
+
+h2,
+h3 {
+    font-family: 'Abel', sans-serif;
+    font-size: 1em;
+    margin: 0.5em 0;
+    text-align: center;
+}
+
+a {
+    color: #E18D58;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* === GRAPHICS BOX === */
+.graphics {
+    background-color: #F9F1E5;
+    color: #0C0E0C;
+    font-size: 0.9em;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.graphics h3 {
+    font-size: 2em;
+}
+
+.title {
+    font-size: 20em;
+}
+
+.container {
+    width: 55%;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.bg-black {
+    background-color: #0C0E0C;
+}
+
+.bg-beige {
+    background-color: #F9F1E5;
+}
+
+.text-orange {
+    color: #E18D58;
+}
+
+header {
+    position: relative;
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.footer {
+    background-color: #F9F1E5;
+}
+
+.footer-content {
+    color: #0C0E0C;
+    font-size: 0.9em;
+    padding: 1rem;
+    margin: 1rem 0;
+    width: 55%;
+}

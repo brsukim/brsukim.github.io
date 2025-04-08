@@ -68,9 +68,7 @@ header .nav-tabs .nav-link {
 .icon-box a {
 
     text-decoration: none;
-    /* Removes underline */
     color: black;
-    /* Default text color */
     font-weight: bold;
 }
 
@@ -109,7 +107,6 @@ main img {
 }
 
 .nav-link {
-    /*overwrites bootstrap styling*/
     color: #FBFFFF;
     text-decoration: none;
     letter-spacing: 1.2px;
@@ -119,7 +116,6 @@ main img {
 }
 
 .nav-link:hover {
-    /*sets styling when 'hovering' aka state*/
     color: antiquewhite;
 }
 
@@ -165,6 +161,7 @@ main img {
     font-size: 14px;
     color: #444;
 }
+
 
 .clip-container {
     text-align: center;
