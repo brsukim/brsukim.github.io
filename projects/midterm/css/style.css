@@ -92,3 +92,15 @@ header {
     padding: 1rem;
     width: 55%;
 }
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3em;
+    }
+
+    .container {
+        width: 95% !important;
+        /* override default Bootstrap width */
+        max-width: 95% !important;
+    }
+}
