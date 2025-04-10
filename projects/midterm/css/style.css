@@ -23,30 +23,22 @@ h3 {
     text-align: center;
 }
 
-a {
+.links {
     color: #E18D58;
-    text-decoration: none;
-}
-
-a:hover {
     text-decoration: underline;
 }
 
-/* === GRAPHICS BOX === */
 .graphics {
     background-color: #F9F1E5;
     color: #0C0E0C;
     font-size: 0.9em;
     padding: 1rem;
     margin: 1rem 0;
+    margin-top: 5em;
 }
 
 .graphics h3 {
     font-size: 2em;
-}
-
-.title {
-    font-size: 20em;
 }
 
 .container {
@@ -55,20 +47,9 @@ a:hover {
     margin-bottom: 5em;
 }
 
-.bg-black {
-    background-color: #0C0E0C;
-}
-
-.bg-beige {
-    background-color: #F9F1E5;
-}
-
-.text-orange {
-    color: #E18D58;
-}
-
 header {
     position: relative;
+    text-align: center;
 }
 
 .centered-text {
@@ -76,21 +57,13 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center;
 }
 
 .footer {
     background-color: #F9F1E5;
     position: absolute;
-}
-
-.footer-content {
-    position: relative;
-    margin: 0 auto;
     color: #0C0E0C;
-    font-size: 0.9em;
-    padding: 1rem;
-    width: 55%;
+    width: 100%;
 }
 
 @media (max-width: 768px) {
@@ -100,7 +73,6 @@ header {
 
     .container {
         width: 95% !important;
-        /* override default Bootstrap width */
         max-width: 95% !important;
     }
 }
