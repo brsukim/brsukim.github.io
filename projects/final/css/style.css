@@ -1,24 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abel&family=Italiana&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abel&family=Italiana&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Open+Sans:wght@300..800&display=swap');
 
 html {
     scroll-behavior: smooth;
 }
 
-section,
-footer {
-    padding: 5em 0;
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #668a2c;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    font-weight: 425;
 }
 
-footer {
-    background: #f8f9fa;
-    color: #1C2827;
-    padding: 20px 0;
+header {
+    position: relative;
     text-align: center;
+    background-color: #928a6a;
+    color: #FBFFFF;
 }
+
+figure img {
+    display: block;
+    width: 50%;
+    height: auto;
+    overflow: hidden;
+}
+
 
 .centered-text {
     position: absolute;
@@ -27,28 +35,89 @@ footer {
     transform: translate(-50%, -50%);
 }
 
-header {
-    position: relative;
-    text-align: center;
-}
-
 h1 {
     font-family: "Abel", sans-serif;
     font-size: 6em;
     margin: 0.5em 0;
-    color: #290283;
+    color: #ffffff;
     font-weight: 800;
 }
 
-h2,
+header h2,
 h3 {
-    font-family: 'Abel', sans-serif;
+    font-family: "Abel", sans-serif;
     font-size: 1em;
     margin: 0.5em 0;
     text-align: center;
     font-weight: bold;
-    color: #161a03;
+    color: #ffffff;
+}
 
+
+.text-section {
+    background-color: #FBFFFF;
+    margin: 2rem 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+}
+
+.gis-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    background-color: #fefefc;
+    /* subtle contrast */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gis-wrapper iframe {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.graphics {
+    background-color: #F9F1E5;
+    color: #0C0E0C;
+    font-size: 0.9em;
+    padding: 1rem;
+    margin: 1rem 0;
+    margin-top: 5em;
+}
+
+main img {
+    border-radius: 10px;
+}
+
+.container {
+    width: 55%;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+iframe {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+a {
+    color: burlywood
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+footer {
+    background: #f8f9fa;
+    color: #1C2827;
+    padding: 20px 0;
+    text-align: center;
 }
 
 .icon-box {
@@ -64,18 +133,15 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 20px;
 }
 
 .icon img {
     width: 70%;
     height: 70%;
     object-fit: contain;
-    /* Ensures logos fit nicely */
 }
 
 .icon-box a {
-
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -83,118 +149,20 @@ h3 {
 
 .icon-box a:hover {
     color: blue;
-    /* Changes text color on hover */
 }
 
-body header {
-    background-color: #928a6a;
-    color: #FBFFFF;
-    font-family: "Open Sans", sans-serif;
-    font-size: 15px;
+figure figcaption {
+    font-size: 0.9em;
+    color: #555;
 }
 
-main {
-    background-color: #D6B588;
-    color: #1C2827;
-    font-family: "Open Sans", sans-serif;
-    padding-top: 30px;
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3em;
+    }
 
-
-}
-
-main img {
-    border-radius: 30px;
-}
-
-
-.card-img-top {
-    height: 200px;
-    object-fit: cover;
-    width: 100%;
-    border-radius: 0px;
-
-}
-
-.nav-link {
-    color: #FBFFFF;
-    text-decoration: none;
-    letter-spacing: 1.2px;
-    padding: 1em;
-    font-weight: 200;
-    font-size: .8em;
-}
-
-.nav-link:hover {
-    color: antiquewhite;
-}
-
-.section-title {
-    border: 2px solid #7ba150;
-    padding: 10px;
-    text-align: center;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-}
-
-.resume-section {
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-.resume-section h4 {
-    font-weight: bold;
-}
-
-.resume-section p {
-    font-style: italic;
-    margin-bottom: 5px;
-}
-
-.resume-section ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.resume-section ul li {
-    margin-bottom: 10px;
-}
-
-.clip-title {
-    color: #e3ff57;
-    margin-top: 40px;
-}
-
-.clip-description {
-    margin-top: 10px;
-    font-size: 14px;
-    color: #444;
-}
-
-
-.clip-container {
-    text-align: center;
-    padding: 20px;
-}
-
-.clip-container img {
-    width: 100%;
-    height: 350px;
-    border-radius: 8px;
-}
-
-.contact-container {
-    background: white;
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    width: 100%;
-    max-width: 500px;
-    margin: auto;
-    margin-bottom: 40px;
-}
-
-.form-control {
-    margin-bottom: 15px;
+    .container {
+        width: 95% !important;
+        max-width: 95% !important;
+    }
 }
