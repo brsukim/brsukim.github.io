@@ -219,6 +219,7 @@
             <div class="col-md-8 text-center">
                 <img src="images/MoCoMakeup.png" class="img-fluid"
                     alt="Share of multifamily homes are increasing while single-family homes decrease in Montgomery County">
+                <small>Source: https://data.montgomerycountymd.gov/stories/s/nmt9-wcf9</small>
             </div>
             <div class="col-md-4">
                 <p>
@@ -297,7 +298,32 @@
                 </a>
             </div>
         </div>
+        <section class="container text-center my-5">
+            <h3>Share This Page</h3>
+            <div class="d-flex justify-content-center gap-3 mt-3 flex-wrap">
+                <a href="https://twitter.com/intent/tweet?url=https://brsukim.github.io/projects/final" target="_blank"
+                    class="btn btn-primary">
+                    Share on Twitter
+                </a>
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://brsukim.github.io/projects/final"
+                    target="_blank" class="btn btn-primary">
+                    Share on Facebook
+                </a>
+                <button onclick="copyPageURL()" class="btn btn-secondary">
+                    Copy Page Link
+                </button>
+            </div>
+        </section>
     </footer>
+    <script>
+        function copyPageURL() {
+            navigator.clipboard.writeText(window.location.href).then(() => {
+                alert('Page link copied to clipboard!');
+            }).catch(err => {
+                alert('Failed to copy link.');
+            });
+        }
+    </script>
 </body>
 
 </html>
